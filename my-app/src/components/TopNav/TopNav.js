@@ -33,7 +33,7 @@ export default function Navbar() {
                 </div>
                 <div id="searchBar">
                     <div id='searchImg'><CiSearch /></div>
-                    <input type="text" placeholder='search products or services' />
+                    <input type="text" id="searchIt" placeholder='search products or services' />
                 </div>
                 <div id="right">
                     <div id="india">

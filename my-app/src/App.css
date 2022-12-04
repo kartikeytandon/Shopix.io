@@ -283,3 +283,54 @@ form input {
   top: 0.5rem;
   left: 0.1rem;
 }
+.home {
+  /* border: 1px solid red; */
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeHead {
+  position: relative;
+  bottom: 0.8rem;
+}
+.homeHead p {
+  width: fit-content;
+  margin: auto;
+}
+.homeHead span{
+  color: rgb(80, 83, 255);
+}
+.socials {
+  display: flex;
+  align-items: center;
+}
+.homeImg img {
+  opacity: 0.5;
+}
+.aboutUs {
+  /* color: rgb(85, 85, 255); */
+  color: rgb(107, 106, 106);
+}
+.whyus {
+  text-align: center;
+  color: rgb(155, 155, 155);
+}
+.founders {
+  position: relative;
+  top: 1.5rem;
+}
+.founder {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+}
+.founder div {
+  margin: 1.5rem;
+}
+#end {
+  margin-top: 2rem;
+}
+/* #searchIt {
+  padding-left: 2rem;
+} */

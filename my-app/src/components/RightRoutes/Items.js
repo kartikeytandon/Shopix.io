@@ -1,7 +1,4 @@
 import React, { useState } from 'react'
-import { Route, Routes } from 'react-router'
-import ProDesc from './ProDesc'
-import Description from './Description'
 import { Link } from 'react-router-dom'
 import Wishlist from './Wishlist'
 
@@ -9,8 +6,7 @@ export default function Items() {
     // const [buttonPopup, setButtonPopup] = useState(false)
     const [state, setstate] = useState({data:""})
     const changeState = () => {  
-        setstate({data:`state/props of parent component 
-        is send by onClick event to another component`}); 
+        setstate({data:`xyz`}); 
     }
   return (
     <div id="fur">
