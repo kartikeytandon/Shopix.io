@@ -147,20 +147,17 @@ a {
   flex-direction: row;
   width: 59rem;
 }
-.furniture {
-  /* border: 1px solid red; */
-}
 #fur {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: auto; */
+}
+#big-box {
+  margin: 1rem;
+  padding: 0.4rem;
   border: 1px solid black;
-  /* border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem; */
   border-radius: 1rem;
-  padding: 0.5rem;
-  margin: 0.4rem;
+  text-align: center;
 }
 #fur button {
   margin-top: 0.1rem;

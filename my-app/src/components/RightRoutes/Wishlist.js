@@ -1,8 +1,13 @@
-import React from 'react'
-import Items from './Items'
+// import React from 'react'
 
-export default function Wishlist(props) {
-  return (
-    <h1>{props.data}</h1>
-  )
-}
+// export default function Wishlist() {
+//   const Cart = ({ cart, setCart, handleChange })
+
+//   return (
+//     <>
+//       {cart.map((item) => (
+//         <div>{item.img}</div>
+//       ))}
+//     </>
+//   )
+// }

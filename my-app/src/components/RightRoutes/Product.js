@@ -1,22 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Items from './Items'
+import proData from './ProData'
 
 export default function Product() {
+
+  const [cart, setCart] = useState([])
+
+  const handleClick = (item) => {
+    // if(cart.indexOf(item) !== -1) {
+    //   return;
+    // }
+    setCart([...cart, item])
+    console.log(cart);
+  }
+
   return (
-    <>
-    <div className="product">
-            <Items />   
-            <Items /> 
-            <Items /> 
-            <Items /> 
-        </div>
-        <div className="product">
-            <Items />  
-            <Items /> 
-            <Items /> 
-            <Items /> 
-        </div>
-        </>
-    // </div>
+    <div id="fur">
+      {proData.map((item) => (
+        <Items key={item.id} item={item} handleClick={handleClick} />
+      ))}
+    </div>
   )
-}
+} 
