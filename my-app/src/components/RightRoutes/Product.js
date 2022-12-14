@@ -11,6 +11,7 @@ export default function Product() {
     //   return;
     // }
     setCart([...cart, item])
+    localStorage.setItem('wish', JSON.stringify(cart))
     console.log(cart);
   }
 

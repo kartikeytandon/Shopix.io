@@ -22,7 +22,7 @@ export default function Description() {
           </div>
           <button className='btnn'>
             <Link to='/products'>Return Back to Product Section</Link>
-          </button>
+          </button> 
         </div>
     </div>
   )

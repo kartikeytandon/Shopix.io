@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // import Wishlist from './Wishlist'
 
 export default function Items({ item, handleClick }) {
-  const {proImgUrl, proName, proPrice} = item
+  const {id, proImgUrl, proName, proPrice} = item
 
   return (
     <div id="fur">
@@ -11,8 +11,9 @@ export default function Items({ item, handleClick }) {
                 <img src={proImgUrl} width={200} />
                 <p>{proName}</p>
                 <p>${proPrice}</p>
+
                 <div className="proBtn">
-                    <button onClick={()=>handleClick(item)}>Add to Wishlist</button>
+                    <button value={id} onClick={(e)=>handleClick(e.target.value)}>Add to Wishlist</button>
                     <button> 
                         <Link to="/description">Know More</Link>
                     </button>
