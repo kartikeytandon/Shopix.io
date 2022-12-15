@@ -20,31 +20,31 @@ const proData = [
     {
         id: 4, 
         proImgUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        proName: "Recliner Set - SOFA",
+        proName: "Normal Sofa - SOFA",
         proPrice: "200"
     },
     {
         id: 5, 
         proImgUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        proName: "Recliner Set - SOFA",
+        proName: "Rest Seat - SOFA",
         proPrice: "200"
     },
     {
         id: 6, 
         proImgUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        proName: "Recliner Set - SOFA",
+        proName: "Cricket Sofa",
         proPrice: "200"
     },
     {
         id: 7, 
         proImgUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        proName: "Recliner Set - SOFA",
+        proName: "Bed Rest - SOFA",
         proPrice: "200"
     },
     {
         id: 8, 
         proImgUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        proName: "Recliner Set - SOFA",
+        proName: "MatchDay - SOFA",
         proPrice: "200"
     }
 ]

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 // import Wishlist from './Wishlist'
 
@@ -8,7 +8,7 @@ export default function Items({ item, handleClick }) {
   return (
     <div id="fur">
             <div id='big-box'>
-                <img src={proImgUrl} width={200} />
+                <img src={proImgUrl} width={200} alt='Pro_Img' />
                 <p>{proName}</p>
                 <p>${proPrice}</p>
 
@@ -18,7 +18,7 @@ export default function Items({ item, handleClick }) {
                         <Link to="/description">Know More</Link>
                     </button>
                 </div>
-            </div>
+            </div>  
     </div>
     
     // <div id="fur">

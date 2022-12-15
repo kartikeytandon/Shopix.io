@@ -35,10 +35,9 @@ export default function Home() {
         <section id="products">
           <div className="container">
             <div className="products-header">
-              <h2>popular products</h2>
+              <h2>Welcome to shopix.io</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                Browse Products upto 50% Discount this Christmas
               </p>
             </div>
             <div className="product product-1">

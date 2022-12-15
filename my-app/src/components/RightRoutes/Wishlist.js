@@ -9,26 +9,30 @@ export default function Wishlist() {
 
   console.log(x)
 
-
-
+  let total = 0;
 
   return (
     <>
         {proData.map((data, key) => {
             if(x.includes(data.id)) {
                 camrt.push(data.id)
+                total = parseInt(total) + parseInt(data.proPrice)
                 return (
-                    // <div className='fur'>
-                        <div className='big-box wish-box' key={key}>
-                            <img src={data.proImgUrl} width={200} />
+                    // <div className='wish'>
+                        <div className='wish-box' key={key}>
+                            <img src={data.proImgUrl} width={80} />
                             <p>{data.proName}</p>
                             <p>${data.proPrice}</p>
-                            <button className='btnn'>Buy Now</button>
+                            {/* <button className='btnn'>Buy Now</button> */}
                         </div>
                     // </div> 
                 )
             }
         })}
+        <div className='wish-foot'>
+            {/* <p id='total-price'>Grand Total: </p> */}
+            <p>Cart Total: ${total}</p>
+        </div>
     </>
   )
 }

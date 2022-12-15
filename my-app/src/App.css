@@ -329,23 +329,46 @@ form input {
   margin-top: 2rem;
 }
 .wish-box {
-  border: 1px solid black;
+  border-bottom: 1px solid rgb(122, 122, 122);
+  text-align: center;
+  padding: 0.6rem;
+  /* border-radius: 5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50rem;
+  margin-left: 4rem;
+}
+.wish-head {
   text-align: center;
   padding: 0.6rem;
   border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50rem;
+  margin-left: 3rem;
 }
 /* #searchIt {
   padding-left: 2rem;
 } */
 
+.wish {
+  border: 1px solid red;
+}  
+.wish-foot {
+  display: flex;
+  /* border: 1px solid red; */
+  font-weight: 700;
+  color: red;
+  padding: 0.6rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 39rem;
+}                               
 
 
-
-
-
-
-
-
+/* *********************************************************************************************** */
 
 
 @import url("https://fonts.googleapis.com/css?family=Lato");
